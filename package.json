@@ -1,0 +1,26 @@
+{
+  "name": "graphql_requests_test_server",
+  "version": "1.0.0",
+  "description": "Simple test server for testing the GraphQL Requests Python package.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hettlage/graphql_requests_test_server.git"
+  },
+  "keywords": [
+    "GraphQL"
+  ],
+  "author": "SALT Astronomy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hettlage/graphql_requests_test_server/issues"
+  },
+  "homepage": "https://github.com/hettlage/graphql_requests_test_server#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.16.7"
+  }
+}
